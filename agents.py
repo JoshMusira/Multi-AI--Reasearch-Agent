@@ -2,6 +2,7 @@ from crewai import Agent
 from dotenv import load_dotenv
 from langchain_google_genai import ChainGoogleGenAI
 import os
+from tools import tool
 
 # Load environment variables
 load_dotenv()
